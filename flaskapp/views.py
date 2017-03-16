@@ -12,4 +12,9 @@ def trump_operation():
     '''
     _action = request.args.get('action')
 
+    if _action=='random':
+        pass
+    else if _action=='sort':
+        pass
+
     return render_template('trump.html', result=_action)
